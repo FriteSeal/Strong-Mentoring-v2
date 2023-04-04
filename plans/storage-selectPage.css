@@ -199,3 +199,12 @@ a{
   color: white;
   font-weight: bolder;
 }
+
+.bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 9.5px;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
