@@ -1,25 +1,26 @@
-/* Set the background color to a darker shade of black */
+/* Set the background color to a lighter shade of black */
 body {
-  background-color: #121212;
+  background-color: #333333;
 }
 
-/* Set the color of the text to a light grey */
+/* Set the color of the text to white */
 body {
-  color: #ccc;
+  color: #fff;
   font-family: 'Inter';
+  line-height: 1.5;
 }
 
 /* Set the color of highlighted text and buttons to a lighter shade of gold */
 .highlight {
-  color: #d4af37  ;
+  color: #d4af37;
   background-color: transparent;
   padding: 5px 10px;
   transition: all 0.3s ease-in-out;
 }
 
-/* Set the color of other text to a light grey */
+/* Set the color of other text to white */
 p, h1, h2, h3, h4, h5, h6, a {
-  color: #ccc;
+  color: #fff;
 }
 
 /* Set the font to sans-serif */
@@ -43,14 +44,12 @@ button.highlight {
   margin: 0 auto;
 }
 
-
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
 }
-
 
 /* Set the links to be underlined and a lighter shade of gold */
 a {
@@ -62,32 +61,29 @@ a:hover {
   text-decoration: none;
 }
 
-.link {
-  text-decoration: underline;
-  color: white;
-  font-weight: bolder;
-}
+/* h1 styling
+
 
 /* h1 styling */
 h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 5.5em;
-  font-weight: bold;
-  font-family: 'Playfair Display', serif;
+text-transform: uppercase;
+text-align: center;
+font-size: 5.5em;
+font-weight: bold;
+font-family: 'Lora', serif;
 }
 
 h1.background-image {
-  background-image: url('jim2.jpeg');
-  background-position: center 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  text-align: center;
-  padding: 50px;
-  font-size: 3.5em;
-  font-family: 'Playfair Display', serif;
-  line-height: 7;
+background-image: url('gymgrey.jpeg');
+background-position: center 50%;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+text-align: center;
+padding: 50px;
+font-size: 3.5em;
+font-family: 'Lora', serif;
+line-height: 5.6;
 }
 
 /* Section styling */
@@ -99,27 +95,6 @@ h1.background-image {
   margin: 0 auto;
 }
 
-.section:nth-child(odd) {
-  text-align: right;
-}
 
-.section:nth-child(odd) h2 {
-  text-align: right;
-  margin-right: 5px;
-}
 
-.section:nth-child(even) h2 {
-  text-align: left;
-  margin-left: 5px;
-}
-
-.section:nth-child(odd) p {
-  text-align: right;
-  margin-right: 10px;
-}
-
-.section:nth-child(even) p {
-  text-align: left;
-  margin-left: 10px;
-}
 
